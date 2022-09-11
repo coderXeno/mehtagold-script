@@ -5,7 +5,6 @@ import datetime
 api_endpoint = "https://mehtagold.dashboard.paralaxiom.in"
 
 username = "diptangsu.burd@gmail.com"
-password = "kingDSG2002"
 
 with requests.Session() as s:
     loginInfo = s.post(f"{api_endpoint}/accounts/login/",data={
